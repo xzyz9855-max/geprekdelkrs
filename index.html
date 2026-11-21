@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Chicken Geprek Del Karangsari – Ayam Geprek Renyah, Pedasnya Bikin Nagih!</title>
-<meta name="description" content="Pesan ayam geprek renyah dengan sambal ijo, merah, atau matah dari Chicken Geprek Del Karangsari. Murah, cepat diantar, pesan lewat WhatsApp.">
+<title>Ayam Geprek Qii – Ayam Geprek Renyah, Pedasnya Bikin Nagih!</title>
+<meta name="description" content="Pesan ayam geprek renyah dengan sambal ijo, merah, atau matah dari Ayam Geprek Qii. Murah, cepat diantar, pesan lewat WhatsApp.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Chicken Geprek Del Karangsari">
-<meta property="og:description" content="Ayam geprek renyah, sambal segar, diantar cepat di Karangsari dan sekitarnya.">
+<meta property="og:title" content="Ayam Geprek Qii">
+<meta property="og:description" content="Ayam geprek renyah, sambal segar, diantar cepat di Pulosari dan sekitarnya.">
 <meta property="og:image" content="https://via.placeholder.com/1200x630/D90429/ffffff?text=Chicken+Geprek+Del">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
@@ -93,7 +93,7 @@ footer a{color:var(--yellow);margin:0 8px;text-decoration:none}
 
 <header>
   <div class="wrap"><nav>
-    <a class="logo" href="#beranda">🍗 Chicken Geprek Del</a>
+    <a class="logo" href="#beranda">🍗 Ayam Geprek Qii</a>
     <div class="menu"><a href="#beranda">Beranda</a><a href="#menu">Menu</a><a href="#cara">Cara Pesan</a><a href="#kontak">Kontak</a></div>
     <a class="btn" href="#pesan">Pesan</a>
   </nav></div>
@@ -157,7 +157,7 @@ footer a{color:var(--yellow);margin:0 8px;text-decoration:none}
       <input type="tel" id="wa" placeholder="Contoh: 081234567890" inputmode="tel" autocomplete="tel">
       <div class="err" id="eWa"></div>
 
-      <label for="alamat">Alamat pengantaran (Karangsari dan sekitarnya)</label>
+      <label for="alamat">Alamat pengantaran (Pulosari, dan sekitarnya)</label>
       <textarea id="alamat" rows="2" placeholder="Jalan, RT/RW, patokan"></textarea>
       <div class="err" id="eAlamat"></div>
 
@@ -201,9 +201,8 @@ footer a{color:var(--yellow);margin:0 8px;text-decoration:none}
   <div class="wrap">
     <h2 class="sec-title rv">Kontak &amp; Lokasi</h2>
     <div class="card rv" style="max-width:520px;margin:20px auto 0;text-align:center">
-      <p>📍 <b>Area layanan:</b> Karangsari dan sekitarnya</p>
-      <p>📞 <b>WhatsApp:</b> 0838-9647-9929</p>
-      <p>🕒 <b>Jam buka:</b> Setiap hari, 10.00 – 21.00 WIB <small>(contoh, silakan ubah)</small></p>
+      <p>📍 <b>Area layanan:</b> Pulosari, dan sekitarnya</p>
+      <p>📞 <b>WhatsApp:</b> 0822-2018-5254</p>
       <a class="btn red" id="chatBtn" href="#" target="_blank" rel="noopener">Chat WhatsApp</a>
     </div>
   </div>
@@ -212,9 +211,9 @@ footer a{color:var(--yellow);margin:0 8px;text-decoration:none}
 
 <footer>
   <div class="wrap">
-    <b>Chicken Geprek Del Karangsari</b>
+    <b>Ayam Geprek Qii</b>
     <p><a href="#beranda">Beranda</a><a href="#menu">Menu</a><a href="#pesan">Pesan</a><a href="#cara">Cara Pesan</a><a href="#kontak">Kontak</a></p>
-    <p>© <span id="yr"></span> Chicken Geprek Del Karangsari. Semua hak dilindungi.</p>
+    <p>© <span id="yr"></span> Ayam Geprek Qii. Semua hak dilindungi.</p>
   </div>
 </footer>
 
@@ -223,15 +222,15 @@ footer a{color:var(--yellow);margin:0 8px;text-decoration:none}
 
 <script>
 /* ===== DATA MUDAH DIEDIT (harga dalam Rupiah, contoh placeholder) ===== */
-const WA_NUMBER = "6283896479929";
+const WA_NUMBER = "082220185254";
 const SAMBAL = [
   {id:"Ijo",    icon:"🥬", desc:"Cabai hijau segar, aroma bawang dan tomat hijau yang gurih.", heat:"🌶️🌶️ Sedang"},
   {id:"Merah",  icon:"🌶️", desc:"Cabai merah ulek klasik, pedas mantap dan sedikit manis.",   heat:"🌶️🌶️🌶️ Pedas"},
   {id:"Matah",  icon:"🍋", desc:"Irisan serai, bawang merah, dan jeruk limau yang segar.",    heat:"🌶️ Segar & ringan"}
 ];
 const MENU = [   // menu utama (hanya 2 pilihan)
-  {id:"ayam",  name:"Ayam Geprek + Nasi",       price:13000, desc:"1 potong ayam krispi, nasi, sambal pilihan"},
-  {id:"hemat", name:"Ayam Geprek Tanpa Nasi",  price:10000, desc:"1 potong ayam krispi, sambal pilihan, tanpa nasi"}
+  {id:"ayam",  name:"Ayam Geprek + Nasi",       price:15000, desc:"1 potong ayam krispi, nasi, sambal pilihan"},
+  {id:"hemat", name:"Ayam Geprek Tanpa Nasi",  price:13000, desc:"1 potong ayam krispi, sambal pilihan, tanpa nasi"}
 ];
 const EXTRA = [];  // tidak ada menu tambahan
 /* ========================================================================= */
@@ -290,7 +289,7 @@ $("#orderForm").addEventListener("submit", e => {
   if (!nama || $("#eWa").textContent || !alamat) return;
   const o = selected(), cat = $("#catatan").value.trim();
   const msg = [
-    "*PESANAN BARU – Chicken Geprek Del Karangsari*", "",
+    "*PESANAN BARU – Ayam Geprek Qii*", "",
     "Nama: " + nama, "WhatsApp: " + hp, "Alamat: " + alamat, "",
     "*Pesanan:*",
     "• " + o.m.name + " (Sambal " + o.sm + ") × " + qty,
