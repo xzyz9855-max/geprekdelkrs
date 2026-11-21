@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chicken Geprek Del Karangsari – Ayam Geprek Renyah, Pedasnya Bikin Nagih!</title>
+<meta name="description" content="Pesan ayam geprek renyah dengan sambal ijo, merah, atau matah dari Chicken Geprek Del Karangsari. Murah, cepat diantar, pesan lewat WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chicken Geprek Del Karangsari">
+<meta property="og:description" content="Ayam geprek renyah, sambal segar, diantar cepat di Karangsari dan sekitarnya.">
+<meta property="og:image" content="https://via.placeholder.com/1200x630/D90429/ffffff?text=Chicken+Geprek+Del">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#D90429;--red2:#E63946;--cream:#FFF4E0;--bg:#fffaf3;--card:#fff;--text:#2b1a17;--muted:#6f5a55;--yellow:#FFB703;--orange:#FB8500;--line:#f1ddd0;--shadow:0 8px 24px rgba(217,4,41,.12);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1110;--card:#2a1917;--cream:#2f1d1a;--text:#fbeee8;--muted:#c9ada5;--line:#4a2d29;--shadow:0 8px 24px rgba(0,0,0,.4);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1110;--card:#2a1917;--cream:#2f1d1a;--text:#fbeee8;--muted:#c9ada5;--line:#4a2d29;--shadow:0 8px 24px rgba(0,0,0,.4);color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Poppins,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+h1,h2,h3{font-weight:800;line-height:1.2;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+section{padding:56px 0}
+.sec-title{text-align:center;font-size:clamp(1.5rem,5vw,2.2rem);margin-bottom:8px}
+.sec-sub{text-align:center;color:var(--muted);margin:0 0 28px}
+.btn{display:inline-block;border:0;cursor:pointer;font:inherit;font-weight:700;padding:12px 24px;border-radius:999px;text-decoration:none;transition:transform .2s,box-shadow .2s;background:linear-gradient(135deg,var(--yellow),var(--orange));color:#3a1200;box-shadow:0 6px 16px rgba(251,133,0,.35)}
+.btn:hover{transform:translateY(-2px)}
+.btn.red{background:var(--red);color:#fff;box-shadow:0 6px 16px rgba(217,4,41,.35)}
+.btn.block{display:block;width:100%;text-align:center}
+/* Navbar */
+header{position:sticky;top:0;z-index:20;background:var(--red);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+nav{display:flex;align-items:center;justify-content:space-between;height:62px;gap:10px}
+.logo{font-weight:800;font-size:1.05rem;text-decoration:none;color:#fff}
+.menu{display:none;gap:20px}
+.menu a{color:#fff;text-decoration:none;font-weight:600}
+.menu a:hover{color:var(--yellow)}
+nav .btn{padding:8px 18px}
+@media(min-width:760px){.menu{display:flex}}
+/* Hero */
+.hero{background:linear-gradient(160deg,var(--red) 0%,var(--red2) 60%,var(--orange) 130%);color:#fff;padding:48px 0 64px;overflow:hidden}
+.hero .wrap{display:grid;gap:28px;align-items:center}
+@media(min-width:820px){.hero .wrap{grid-template-columns:1.1fr .9fr}}
+.hero h1{font-size:clamp(2rem,7vw,3.3rem)}
+.hero h1 span{color:var(--yellow)}
+.hero p{font-size:1.05rem;opacity:.95;margin:14px 0 22px}
+.hero-img{width:100%;max-width:380px;margin:0 auto;animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+/* Cards */
+.grid{display:grid;gap:18px}
+.g3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow);transition:transform .25s}
+.card:hover{transform:translateY(-4px)}
+.card.sel{outline:3px solid var(--red)}
+.card .ico{font-size:2.2rem}
+.card h3{font-size:1.15rem;margin:6px 0}
+.card p{margin:0 0 12px;color:var(--muted);font-size:.93rem}
+.heat{font-weight:600;font-size:.9rem;margin-bottom:12px}
+.alt{background:var(--cream)}
+/* Reveal on scroll */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+/* Form */
+form{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow);max-width:680px;margin:0 auto}
+label,.lbl{display:block;font-weight:600;margin:14px 0 6px;font-size:.93rem}
+input[type=text],input[type=tel],select,textarea{width:100%;font:inherit;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--text)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--red);border-color:var(--red)}
+.err{color:var(--red);font-size:.82rem;min-height:1em;margin-top:3px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts label{margin:0;display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600}
+.opts label:has(input:checked){background:var(--red);border-color:var(--red);color:#fff}
+.opts input{accent-color:var(--yellow)}
+.qty{display:flex;align-items:center;gap:14px}
+.qty button{width:40px;height:40px;border-radius:50%;border:0;background:var(--red);color:#fff;font-size:1.3rem;cursor:pointer}
+.qty output{font-weight:800;font-size:1.2rem;min-width:28px;text-align:center}
+.sum{background:var(--cream);border-radius:14px;padding:14px;margin:18px 0;font-size:.93rem}
+.sum div{display:flex;justify-content:space-between;gap:10px}
+.sum .tot{font-weight:800;font-size:1.1rem;border-top:1px dashed var(--line);margin-top:8px;padding-top:8px;color:var(--red)}
+/* Steps */
+.step .num{width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:8px}
+/* Footer */
+footer{background:#2b0a10;color:#fff;padding:32px 0 calc(90px + env(safe-area-inset-bottom,0px));text-align:center;font-size:.9rem}
+footer a{color:var(--yellow);margin:0 8px;text-decoration:none}
+/* Floating + sticky */
+.wa{position:fixed;right:16px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:30;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.3);text-decoration:none;font-size:1.7rem}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:25;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--card);border-top:1px solid var(--line);display:block}
+@media(min-width:760px){.sticky{display:none}.wa{bottom:20px}footer{padding-bottom:32px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap"><nav>
+    <a class="logo" href="#beranda">🍗 Chicken Geprek Del</a>
+    <div class="menu"><a href="#beranda">Beranda</a><a href="#menu">Menu</a><a href="#cara">Cara Pesan</a><a href="#kontak">Kontak</a></div>
+    <a class="btn" href="#pesan">Pesan</a>
+  </nav></div>
+</header>
+
+<main>
+<section class="hero" id="beranda" style="padding-top:48px">
+  <div class="wrap">
+    <div>
+      <h1>Ayam Geprek Renyah, <span>Pedasnya Bikin Nagih!</span></h1>
+      <p>Ayam krispi digeprek dengan sambal segar buatan sendiri. Diantar hangat ke seluruh Karangsari dan sekitarnya.</p>
+      <a class="btn" href="#pesan">Pesan Sekarang</a>
+    </div>
+    <!-- Ganti dengan foto asli: <img src="foto-ayam.jpg" alt="Ayam geprek"> -->
+    <svg class="hero-img" viewBox="0 0 300 260" role="img" aria-label="Ilustrasi ayam geprek dengan cabai">
+      <ellipse cx="150" cy="215" rx="125" ry="30" fill="#fff" opacity=".95"/>
+      <ellipse cx="150" cy="200" rx="105" ry="24" fill="#FFF4E0"/>
+      <path d="M60 170c-10-50 30-95 85-95 60 0 100 40 90 90-8 30-50 40-90 38-45-2-78-8-85-33z" fill="#F4A021"/>
+      <path d="M85 160c-5-30 20-60 60-60s70 25 62 58c-6 20-40 26-62 24-30-2-55-4-60-22z" fill="#FFC857"/>
+      <circle cx="120" cy="130" r="6" fill="#E08A00"/><circle cx="160" cy="118" r="5" fill="#E08A00"/><circle cx="185" cy="145" r="6" fill="#E08A00"/><circle cx="140" cy="155" r="5" fill="#E08A00"/>
+      <path d="M200 90c25-20 55-10 60 10-20 10-45 8-60-10z" fill="#2f9e44"/>
+      <path d="M40 120c15-25 40-20 50 0-18 12-38 12-50 0z" fill="#d00000"/>
+      <path d="M205 62c10-25 25-30 30-26-5 15-12 24-30 26z" fill="#2f9e44"/>
+    </svg>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="wrap">
+    <h2 class="sec-title rv">Pilih Sambal Favoritmu</h2>
+    <p class="sec-sub rv">Tiga sambal, tiga sensasi pedas.</p>
+    <div class="grid g3" id="sambalGrid"></div>
+    <h2 class="sec-title rv" style="margin-top:44px;font-size:1.5rem">Daftar Menu &amp; Harga</h2>
+    <div class="grid g4" id="menuGrid" style="margin-top:18px"></div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2 class="sec-title rv">Kenapa Pilih Kami?</h2>
+    <p class="sec-sub rv">Rasa juara, harga bersahabat.</p>
+    <div class="grid g4">
+      <div class="card rv"><div class="ico">🍗</div><h3>Ayam Krispi</h3><p>Digoreng garing di luar, juicy di dalam.</p></div>
+      <div class="card rv"><div class="ico">🌶️</div><h3>Sambal Segar</h3><p>Diulek langsung setiap hari tanpa pengawet.</p></div>
+      <div class="card rv"><div class="ico">💸</div><h3>Harga Terjangkau</h3><p>Kenyang puas, kantong tetap aman.</p></div>
+      <div class="card rv"><div class="ico">🛵</div><h3>Cepat Diantar</h3><p>Pesanan sampai masih hangat dan renyah.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="pesan">
+  <div class="wrap">
+    <h2 class="sec-title rv">Form Pemesanan</h2>
+    <p class="sec-sub rv">Isi data, lalu kirim lewat WhatsApp.</p>
+    <form id="orderForm" novalidate>
+      <label for="nama">Nama pemesan</label>
+      <input type="text" id="nama" placeholder="Contoh: Budi" autocomplete="name">
+      <div class="err" id="eNama"></div>
+
+      <label for="wa">Nomor WhatsApp</label>
+      <input type="tel" id="wa" placeholder="Contoh: 081234567890" inputmode="tel" autocomplete="tel">
+      <div class="err" id="eWa"></div>
+
+      <label for="alamat">Alamat pengantaran (Karangsari dan sekitarnya)</label>
+      <textarea id="alamat" rows="2" placeholder="Jalan, RT/RW, patokan"></textarea>
+      <div class="err" id="eAlamat"></div>
+
+      <label for="menuSel">Pilihan menu</label>
+      <select id="menuSel"></select>
+
+      <div class="lbl">Jenis sambal</div>
+      <div class="opts" id="sambalOpts"></div>
+
+      <div class="opts" id="extraOpts" hidden></div>
+
+      <div class="lbl">Jumlah porsi</div>
+      <div class="qty">
+        <button type="button" id="minus" aria-label="Kurangi">−</button>
+        <output id="qty">1</output>
+        <button type="button" id="plus" aria-label="Tambah">+</button>
+      </div>
+
+      <label for="catatan">Catatan tambahan</label>
+      <textarea id="catatan" rows="2" placeholder="Contoh: level pedas sedang, tanpa nasi"></textarea>
+
+      <div class="sum" id="sum" aria-live="polite"></div>
+      <button class="btn red block" type="submit">Kirim Pesanan via WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<section class="alt" id="cara">
+  <div class="wrap">
+    <h2 class="sec-title rv">Cara Pesan</h2>
+    <p class="sec-sub rv">Cuma tiga langkah, gampang banget.</p>
+    <div class="grid g3">
+      <div class="card step rv"><div class="num">1</div><h3>Pilih Menu</h3><p>Tentukan paket dan sambal favoritmu.</p></div>
+      <div class="card step rv"><div class="num">2</div><h3>Isi Data</h3><p>Lengkapi nama, nomor, dan alamat pengantaran.</p></div>
+      <div class="card step rv"><div class="num">3</div><h3>Kirim via WhatsApp</h3><p>Pesanan terkirim otomatis, tinggal tunggu diantar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="kontak">
+  <div class="wrap">
+    <h2 class="sec-title rv">Kontak &amp; Lokasi</h2>
+    <div class="card rv" style="max-width:520px;margin:20px auto 0;text-align:center">
+      <p>📍 <b>Area layanan:</b> Karangsari dan sekitarnya</p>
+      <p>📞 <b>WhatsApp:</b> 0838-9647-9929</p>
+      <p>🕒 <b>Jam buka:</b> Setiap hari, 10.00 – 21.00 WIB <small>(contoh, silakan ubah)</small></p>
+      <a class="btn red" id="chatBtn" href="#" target="_blank" rel="noopener">Chat WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <b>Chicken Geprek Del Karangsari</b>
+    <p><a href="#beranda">Beranda</a><a href="#menu">Menu</a><a href="#pesan">Pesan</a><a href="#cara">Cara Pesan</a><a href="#kontak">Kontak</a></p>
+    <p>© <span id="yr"></span> Chicken Geprek Del Karangsari. Semua hak dilindungi.</p>
+  </div>
+</footer>
+
+<a class="wa" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat WhatsApp">💬</a>
+<div class="sticky"><a class="btn red block" href="#pesan">Pesan Sekarang</a></div>
+
+<script>
+/* ===== DATA MUDAH DIEDIT (harga dalam Rupiah, contoh placeholder) ===== */
+const WA_NUMBER = "6283896479929";
+const SAMBAL = [
+  {id:"Ijo",    icon:"🥬", desc:"Cabai hijau segar, aroma bawang dan tomat hijau yang gurih.", heat:"🌶️🌶️ Sedang"},
+  {id:"Merah",  icon:"🌶️", desc:"Cabai merah ulek klasik, pedas mantap dan sedikit manis.",   heat:"🌶️🌶️🌶️ Pedas"},
+  {id:"Matah",  icon:"🍋", desc:"Irisan serai, bawang merah, dan jeruk limau yang segar.",    heat:"🌶️ Segar & ringan"}
+];
+const MENU = [   // menu utama (hanya 2 pilihan)
+  {id:"ayam",  name:"Ayam Geprek + Nasi",       price:13000, desc:"1 potong ayam krispi, nasi, sambal pilihan"},
+  {id:"hemat", name:"Ayam Geprek Tanpa Nasi",  price:10000, desc:"1 potong ayam krispi, sambal pilihan, tanpa nasi"}
+];
+const EXTRA = [];  // tidak ada menu tambahan
+/* ========================================================================= */
+
+const $ = s => document.querySelector(s);
+const rp = n => "Rp" + n.toLocaleString("id-ID");
+let qty = 1, sambal = SAMBAL[0].id;
+
+// Render kartu sambal
+$("#sambalGrid").innerHTML = SAMBAL.map(s => `
+  <div class="card rv" data-s="${s.id}"><div class="ico">${s.icon}</div>
+  <h3>Sambal ${s.id}</h3><p>${s.desc}</p><div class="heat">Tingkat pedas: ${s.heat}</div>
+  <button class="btn red block" type="button" data-pick="${s.id}">Pilih</button></div>`).join("");
+// Render daftar menu
+$("#menuGrid").innerHTML = MENU.map(m => `
+  <div class="card rv"><h3>${m.name}</h3><p>${m.desc}</p><b style="color:var(--red)">${rp(m.price)}</b></div>`).join("");
+// Form options
+$("#menuSel").innerHTML = MENU.map(m => `<option value="${m.id}">${m.name} – ${rp(m.price)}</option>`).join("");
+$("#sambalOpts").innerHTML = SAMBAL.map((s,i) => `<label><input type="radio" name="sambal" value="${s.id}" ${i?"":"checked"}>${s.id}</label>`).join("");
+$("#extraOpts").innerHTML = EXTRA.map(e => `<label><input type="checkbox" value="${e.id}">${e.name} +${rp(e.price)}</label>`).join("");
+
+function selected(){
+  const m = MENU.find(x => x.id === $("#menuSel").value);
+  const ex = EXTRA.filter(e => document.querySelector(`#extraOpts input[value="${e.id}"]`).checked);
+  const sm = document.querySelector('input[name=sambal]:checked').value;
+  const unit = m.price + ex.reduce((a,e) => a + e.price, 0);
+  return {m, ex, sm, unit, total: unit * qty};
+}
+function updateSummary(){
+  const o = selected();
+  $("#qty").textContent = qty;
+  $("#sum").innerHTML = `<div><span>${o.m.name} (Sambal ${o.sm})</span><span>${rp(o.m.price)}</span></div>` +
+    o.ex.map(e => `<div><span>+ ${e.name}</span><span>${rp(e.price)}</span></div>`).join("") +
+    `<div><span>Jumlah porsi</span><span>× ${qty}</span></div><div class="tot"><span>Total</span><span>${rp(o.total)}</span></div>`;
+}
+$("#plus").onclick = () => { if (qty < 50) qty++; updateSummary(); };
+$("#minus").onclick = () => { if (qty > 1) qty--; updateSummary(); };
+$("#orderForm").addEventListener("change", updateSummary);
+
+// Tombol "Pilih" pada kartu sambal
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-pick]"); if (!b) return;
+  document.querySelector(`input[name=sambal][value="${b.dataset.pick}"]`).checked = true;
+  document.querySelectorAll("#sambalGrid .card").forEach(c => c.classList.toggle("sel", c.dataset.s === b.dataset.pick));
+  updateSummary();
+  $("#pesan").scrollIntoView({behavior:"smooth"});
+});
+
+// Validasi + kirim ke WhatsApp
+$("#orderForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const nama = $("#nama").value.trim(), hp = $("#wa").value.trim(), alamat = $("#alamat").value.trim();
+  $("#eNama").textContent = nama ? "" : "Nama wajib diisi.";
+  $("#eWa").textContent = /^(\+?62|0)8\d{7,12}$/.test(hp.replace(/[\s-]/g,"")) ? "" : "Masukkan nomor WhatsApp yang valid.";
+  $("#eAlamat").textContent = alamat ? "" : "Alamat wajib diisi.";
+  if (!nama || $("#eWa").textContent || !alamat) return;
+  const o = selected(), cat = $("#catatan").value.trim();
+  const msg = [
+    "*PESANAN BARU – Chicken Geprek Del Karangsari*", "",
+    "Nama: " + nama, "WhatsApp: " + hp, "Alamat: " + alamat, "",
+    "*Pesanan:*",
+    "• " + o.m.name + " (Sambal " + o.sm + ") × " + qty,
+    ...o.ex.map(x => "• Tambahan: " + x.name),
+    "", "Catatan: " + (cat || "-"), "", "*Total: " + rp(o.total) + "*", "", "Terima kasih!"
+  ].join("\n");
+  window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg), "_blank");
+});
+
+// Link WhatsApp umum
+const hi = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent("Halo, saya mau tanya menu Chicken Geprek Del.");
+$("#chatBtn").href = hi; $("#waFloat").href = hi;
+$("#yr").textContent = new Date().getFullYear();
+
+// Animasi muncul saat scroll
+const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting){ x.target.classList.add("in"); io.unobserve(x.target); } }), {threshold:.12}) : null;
+document.querySelectorAll(".rv").forEach(el => io ? io.observe(el) : el.classList.add("in"));
+
+updateSummary();
+</script>
+</body>
+</html>
